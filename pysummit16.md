@@ -125,6 +125,7 @@ Works also on PyPy because it generates Python code
 
 #### Howto
 
+```python
 	$ man getpwuid
     import cffi
     ffi = cffi.FFI()
@@ -141,6 +142,7 @@ Works also on PyPy because it generates Python code
 	==> _pwuid_cffi.so was compiled
 
     from _pwuid_cffi import lib, ffi
+```
 
 ### PyPy
 - Prompt: `>>>>`
